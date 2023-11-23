@@ -47,10 +47,10 @@ def deleteStudent(student_id):#takes the id and removes that entry from the data
 
 try:
     conn = psycopg2.connect(
-    host= input("Enter Host: "),#localhost
-    database= input ("Enter Database: "),#A4
-    user= input ("Enter Username: "),#postgres
-    password=input ("Enter Password: "))#Order.66
+    host= input("Enter Host: "),
+    database= input ("Enter Database: "),
+    user= input ("Enter Username: "),
+    password=input ("Enter Password: "))
     connected = True
 except psycopg2.OperationalError:
     print ("Could not connect, try again")
@@ -81,7 +81,6 @@ while choice !=5:
         elif choice == 1:
             getAllStudents()
         elif choice == 2:
-            #addStudent("Matteo", "Carpignano", "email", "2023-01-01")
             addStudentCall()
         elif choice == 3:
             updateStudentEmailCall()
