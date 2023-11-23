@@ -22,3 +22,5 @@ Steps:
 15. If for some reason the application doesn't run or gives an error, try "python3 a4.py", sometimes the python command uses an older version of python and python 3 has a seperate command, depening on how it was installed on your system.
 16. Just follow the on screen prompts now to test the program. 
 17. For the initial connection when the program starts, the host is the address to your server, this will likely be localhost for you. Database is the name of the database from step 2, username is the user you chose for the database, password is the users password****
+
+https://www.youtube.com/watch?v=3QNJAt8vmnc
